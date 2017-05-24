@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3327A41ED439F6004C2319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A31ED439F6004C2319 /* main.m */; };
+		3C3327A71ED439F6004C2319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A61ED439F6004C2319 /* AppDelegate.m */; };
+		3C3327AA1ED439F6004C2319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A91ED439F6004C2319 /* ViewController.m */; };
+		3C3327AD1ED439F6004C2319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327AB1ED439F6004C2319 /* Main.storyboard */; };
+		3C3327B01ED439F6004C2319 /* TDLockView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327AE1ED439F6004C2319 /* TDLockView.xcdatamodeld */; };
+		3C3327B21ED439F6004C2319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327B11ED439F6004C2319 /* Assets.xcassets */; };
+		3C3327B51ED439F6004C2319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327B31ED439F6004C2319 /* LaunchScreen.storyboard */; };
+		3C3327C01ED439F6004C2319 /* TDLockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327BF1ED439F6004C2319 /* TDLockViewTests.m */; };
+		3C3327CC1ED43A0C004C2319 /* TDLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327CB1ED43A0C004C2319 /* TDLockView.m */; };
+		3C3327D01ED43A2C004C2319 /* TDLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327CE1ED43A2C004C2319 /* TDLockViewController.m */; };
+		3C3327D11ED43A2C004C2319 /* TDLockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327CF1ED43A2C004C2319 /* TDLockViewController.xib */; };
+		3C3327D41ED4423D004C2319 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327D21ED4423D004C2319 /* selected.png */; };
+		3C3327D51ED4423D004C2319 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3327D31ED4423D004C2319 /* normal.png */; };
+		9F6160C27A4E687B008E35A5 /* libPods-TDLockView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A2FDE9FC96B8BE86AD565D /* libPods-TDLockView.a */; };
+		CA783DA52E78C54AADC6F084 /* libPods-TDLockViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EFE245A520C332C683B73D /* libPods-TDLockViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3327BC1ED439F6004C2319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3327971ED439F6004C2319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C33279E1ED439F6004C2319;
+			remoteInfo = TDLockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304CB97144E65A18161132B3 /* Pods-TDLockView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLockView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDLockView/Pods-TDLockView.release.xcconfig"; sourceTree = "<group>"; };
+		3C33279F1ED439F6004C2319 /* TDLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3327A31ED439F6004C2319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C3327A51ED439F6004C2319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C3327A61ED439F6004C2319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C3327A81ED439F6004C2319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C3327A91ED439F6004C2319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C3327AC1ED439F6004C2319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C3327AF1ED439F6004C2319 /* TDLockView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDLockView.xcdatamodel; sourceTree = "<group>"; };
+		3C3327B11ED439F6004C2319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3327B41ED439F6004C2319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C3327B61ED439F6004C2319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3327BB1ED439F6004C2319 /* TDLockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDLockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3327BF1ED439F6004C2319 /* TDLockViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDLockViewTests.m; sourceTree = "<group>"; };
+		3C3327C11ED439F6004C2319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3327CA1ED43A0C004C2319 /* TDLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLockView.h; sourceTree = "<group>"; };
+		3C3327CB1ED43A0C004C2319 /* TDLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLockView.m; sourceTree = "<group>"; };
+		3C3327CD1ED43A2C004C2319 /* TDLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLockViewController.h; sourceTree = "<group>"; };
+		3C3327CE1ED43A2C004C2319 /* TDLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLockViewController.m; sourceTree = "<group>"; };
+		3C3327CF1ED43A2C004C2319 /* TDLockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDLockViewController.xib; sourceTree = "<group>"; };
+		3C3327D21ED4423D004C2319 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		3C3327D31ED4423D004C2319 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		63AEF1EADE5AAEF7AE519E9C /* Pods-TDLockViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLockViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDLockViewTests/Pods-TDLockViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		848D61AC5534A5D3EEAFC559 /* Pods-TDLockView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLockView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDLockView/Pods-TDLockView.debug.xcconfig"; sourceTree = "<group>"; };
+		A2A2FDE9FC96B8BE86AD565D /* libPods-TDLockView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDLockView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EFE245A520C332C683B73D /* libPods-TDLockViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDLockViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBA90F3648E8FF1ACF0548 /* Pods-TDLockViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLockViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDLockViewTests/Pods-TDLockViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C33279C1ED439F6004C2319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6160C27A4E687B008E35A5 /* libPods-TDLockView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3327B81ED439F6004C2319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA783DA52E78C54AADC6F084 /* libPods-TDLockViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3327961ED439F6004C2319 = {
+			isa = PBXGroup;
+			children = (
+				3C3327D21ED4423D004C2319 /* selected.png */,
+				3C3327D31ED4423D004C2319 /* normal.png */,
+				3C3327A11ED439F6004C2319 /* TDLockView */,
+				3C3327BE1ED439F6004C2319 /* TDLockViewTests */,
+				3C3327A01ED439F6004C2319 /* Products */,
+				63EB0C77F6DEFCF12F2E4E7E /* Pods */,
+				CE25E156F13915032C1D5F59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3327A01ED439F6004C2319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C33279F1ED439F6004C2319 /* TDLockView.app */,
+				3C3327BB1ED439F6004C2319 /* TDLockViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3327A11ED439F6004C2319 /* TDLockView */ = {
+			isa = PBXGroup;
+			children = (
+				3C3327CA1ED43A0C004C2319 /* TDLockView.h */,
+				3C3327CB1ED43A0C004C2319 /* TDLockView.m */,
+				3C3327CD1ED43A2C004C2319 /* TDLockViewController.h */,
+				3C3327CE1ED43A2C004C2319 /* TDLockViewController.m */,
+				3C3327CF1ED43A2C004C2319 /* TDLockViewController.xib */,
+				3C3327A51ED439F6004C2319 /* AppDelegate.h */,
+				3C3327A61ED439F6004C2319 /* AppDelegate.m */,
+				3C3327A81ED439F6004C2319 /* ViewController.h */,
+				3C3327A91ED439F6004C2319 /* ViewController.m */,
+				3C3327AB1ED439F6004C2319 /* Main.storyboard */,
+				3C3327B11ED439F6004C2319 /* Assets.xcassets */,
+				3C3327B31ED439F6004C2319 /* LaunchScreen.storyboard */,
+				3C3327B61ED439F6004C2319 /* Info.plist */,
+				3C3327AE1ED439F6004C2319 /* TDLockView.xcdatamodeld */,
+				3C3327A21ED439F6004C2319 /* Supporting Files */,
+			);
+			path = TDLockView;
+			sourceTree = "<group>";
+		};
+		3C3327A21ED439F6004C2319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3327A31ED439F6004C2319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C3327BE1ED439F6004C2319 /* TDLockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3327BF1ED439F6004C2319 /* TDLockViewTests.m */,
+				3C3327C11ED439F6004C2319 /* Info.plist */,
+			);
+			path = TDLockViewTests;
+			sourceTree = "<group>";
+		};
+		63EB0C77F6DEFCF12F2E4E7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848D61AC5534A5D3EEAFC559 /* Pods-TDLockView.debug.xcconfig */,
+				304CB97144E65A18161132B3 /* Pods-TDLockView.release.xcconfig */,
+				CEFBA90F3648E8FF1ACF0548 /* Pods-TDLockViewTests.debug.xcconfig */,
+				63AEF1EADE5AAEF7AE519E9C /* Pods-TDLockViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE25E156F13915032C1D5F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2FDE9FC96B8BE86AD565D /* libPods-TDLockView.a */,
+				B3EFE245A520C332C683B73D /* libPods-TDLockViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C33279E1ED439F6004C2319 /* TDLockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3327C41ED439F6004C2319 /* Build configuration list for PBXNativeTarget "TDLockView" */;
+			buildPhases = (
+				635634212CBECF76C466707F /* [CP] Check Pods Manifest.lock */,
+				3C33279B1ED439F6004C2319 /* Sources */,
+				3C33279C1ED439F6004C2319 /* Frameworks */,
+				3C33279D1ED439F6004C2319 /* Resources */,
+				12EBBC00D6C51434FAB5EEEF /* [CP] Embed Pods Frameworks */,
+				1F3C3351F29A242759688960 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDLockView;
+			productName = TDLockView;
+			productReference = 3C33279F1ED439F6004C2319 /* TDLockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C3327BA1ED439F6004C2319 /* TDLockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3327C71ED439F6004C2319 /* Build configuration list for PBXNativeTarget "TDLockViewTests" */;
+			buildPhases = (
+				CE6AC56553E122A2F5E983DA /* [CP] Check Pods Manifest.lock */,
+				3C3327B71ED439F6004C2319 /* Sources */,
+				3C3327B81ED439F6004C2319 /* Frameworks */,
+				3C3327B91ED439F6004C2319 /* Resources */,
+				566E1A39E4C9DD737EAC92BE /* [CP] Embed Pods Frameworks */,
+				EEAA8AD34AF9CC3E3137020A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3327BD1ED439F6004C2319 /* PBXTargetDependency */,
+			);
+			name = TDLockViewTests;
+			productName = TDLockViewTests;
+			productReference = 3C3327BB1ED439F6004C2319 /* TDLockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C3327971ED439F6004C2319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.tagdu.bigtang;
+				TargetAttributes = {
+					3C33279E1ED439F6004C2319 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					3C3327BA1ED439F6004C2319 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C33279E1ED439F6004C2319;
+					};
+				};
+			};
+			buildConfigurationList = 3C33279A1ED439F6004C2319 /* Build configuration list for PBXProject "TDLockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C3327961ED439F6004C2319;
+			productRefGroup = 3C3327A01ED439F6004C2319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C33279E1ED439F6004C2319 /* TDLockView */,
+				3C3327BA1ED439F6004C2319 /* TDLockViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C33279D1ED439F6004C2319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3327D51ED4423D004C2319 /* normal.png in Resources */,
+				3C3327B51ED439F6004C2319 /* LaunchScreen.storyboard in Resources */,
+				3C3327D11ED43A2C004C2319 /* TDLockViewController.xib in Resources */,
+				3C3327B21ED439F6004C2319 /* Assets.xcassets in Resources */,
+				3C3327D41ED4423D004C2319 /* selected.png in Resources */,
+				3C3327AD1ED439F6004C2319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3327B91ED439F6004C2319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EBBC00D6C51434FAB5EEEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDLockView/Pods-TDLockView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F3C3351F29A242759688960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDLockView/Pods-TDLockView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		566E1A39E4C9DD737EAC92BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDLockViewTests/Pods-TDLockViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635634212CBECF76C466707F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6AC56553E122A2F5E983DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAA8AD34AF9CC3E3137020A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDLockViewTests/Pods-TDLockViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C33279B1ED439F6004C2319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3327AA1ED439F6004C2319 /* ViewController.m in Sources */,
+				3C3327CC1ED43A0C004C2319 /* TDLockView.m in Sources */,
+				3C3327A71ED439F6004C2319 /* AppDelegate.m in Sources */,
+				3C3327D01ED43A2C004C2319 /* TDLockViewController.m in Sources */,
+				3C3327A41ED439F6004C2319 /* main.m in Sources */,
+				3C3327B01ED439F6004C2319 /* TDLockView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3327B71ED439F6004C2319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3327C01ED439F6004C2319 /* TDLockViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3327BD1ED439F6004C2319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C33279E1ED439F6004C2319 /* TDLockView */;
+			targetProxy = 3C3327BC1ED439F6004C2319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C3327AB1ED439F6004C2319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3327AC1ED439F6004C2319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C3327B31ED439F6004C2319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3327B41ED439F6004C2319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C3327C21ED439F6004C2319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C3327C31ED439F6004C2319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C3327C51ED439F6004C2319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848D61AC5534A5D3EEAFC559 /* Pods-TDLockView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigTang.TDLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C3327C61ED439F6004C2319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304CB97144E65A18161132B3 /* Pods-TDLockView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigTang.TDLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C3327C81ED439F6004C2319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFBA90F3648E8FF1ACF0548 /* Pods-TDLockViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigTang.TDLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDLockView.app/TDLockView";
+			};
+			name = Debug;
+		};
+		3C3327C91ED439F6004C2319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AEF1EADE5AAEF7AE519E9C /* Pods-TDLockViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigTang.TDLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDLockView.app/TDLockView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C33279A1ED439F6004C2319 /* Build configuration list for PBXProject "TDLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3327C21ED439F6004C2319 /* Debug */,
+				3C3327C31ED439F6004C2319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3327C41ED439F6004C2319 /* Build configuration list for PBXNativeTarget "TDLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3327C51ED439F6004C2319 /* Debug */,
+				3C3327C61ED439F6004C2319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C3327C71ED439F6004C2319 /* Build configuration list for PBXNativeTarget "TDLockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3327C81ED439F6004C2319 /* Debug */,
+				3C3327C91ED439F6004C2319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C3327AE1ED439F6004C2319 /* TDLockView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C3327AF1ED439F6004C2319 /* TDLockView.xcdatamodel */,
+			);
+			currentVersion = 3C3327AF1ED439F6004C2319 /* TDLockView.xcdatamodel */;
+			path = TDLockView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C3327971ED439F6004C2319 /* Project object */;
+}
