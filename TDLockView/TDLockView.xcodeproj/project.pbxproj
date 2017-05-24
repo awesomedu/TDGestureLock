@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2995411ED58EA00088F8F3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2995401ED58EA00088F8F3 /* back.png */; };
 		3C3327A41ED439F6004C2319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A31ED439F6004C2319 /* main.m */; };
 		3C3327A71ED439F6004C2319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A61ED439F6004C2319 /* AppDelegate.m */; };
 		3C3327AA1ED439F6004C2319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3327A91ED439F6004C2319 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		304CB97144E65A18161132B3 /* Pods-TDLockView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLockView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDLockView/Pods-TDLockView.release.xcconfig"; sourceTree = "<group>"; };
+		3C2995401ED58EA00088F8F3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		3C33279F1ED439F6004C2319 /* TDLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3327A31ED439F6004C2319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C3327A51ED439F6004C2319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		3C3327961ED439F6004C2319 = {
 			isa = PBXGroup;
 			children = (
+				3C2995401ED58EA00088F8F3 /* back.png */,
 				3C3327D21ED4423D004C2319 /* selected.png */,
 				3C3327D31ED4423D004C2319 /* normal.png */,
 				3C3327A11ED439F6004C2319 /* TDLockView */,
@@ -257,6 +260,7 @@
 				3C3327B51ED439F6004C2319 /* LaunchScreen.storyboard in Resources */,
 				3C3327D11ED43A2C004C2319 /* TDLockViewController.xib in Resources */,
 				3C3327B21ED439F6004C2319 /* Assets.xcassets in Resources */,
+				3C2995411ED58EA00088F8F3 /* back.png in Resources */,
 				3C3327D41ED4423D004C2319 /* selected.png in Resources */,
 				3C3327AD1ED439F6004C2319 /* Main.storyboard in Resources */,
 			);
@@ -577,6 +581,7 @@
 				3C3327C61ED439F6004C2319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C3327C71ED439F6004C2319 /* Build configuration list for PBXNativeTarget "TDLockViewTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +590,7 @@
 				3C3327C91ED439F6004C2319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

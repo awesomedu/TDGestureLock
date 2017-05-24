@@ -20,14 +20,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6VT-cW-jVC" customClass="TDLockView">
-                    <rect key="frame" x="39" y="204" width="301" height="265"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="0.96862745100000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="jTq-XW-KTd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VT-cW-jVC" customClass="TDLockView">
+                    <rect key="frame" x="39" y="204" width="297" height="259"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6VT-cW-jVC" firstAttribute="centerY" secondItem="jTq-XW-KTd" secondAttribute="centerY" id="1m4-gi-3Na"/>
+                <constraint firstItem="6VT-cW-jVC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="39" id="9hl-1F-bCd"/>
+                <constraint firstAttribute="trailing" secondItem="jTq-XW-KTd" secondAttribute="trailing" id="AwR-IF-Uyb"/>
+                <constraint firstItem="6VT-cW-jVC" firstAttribute="centerX" secondItem="jTq-XW-KTd" secondAttribute="centerX" id="HSt-5u-xeA"/>
+                <constraint firstItem="jTq-XW-KTd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S6y-Yc-b3I"/>
+                <constraint firstItem="6VT-cW-jVC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="204" id="eEu-VR-HJh"/>
+                <constraint firstItem="jTq-XW-KTd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jGh-tp-ooA"/>
+                <constraint firstAttribute="bottom" secondItem="jTq-XW-KTd" secondAttribute="bottom" id="uSy-5b-kaX"/>
+            </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="back.png" width="1000" height="561"/>
+    </resources>
 </document>
